@@ -88,7 +88,7 @@ const TicTacToe = () => {
   return (
     <div className="container">
       <h1
-        className="title text-white text-6xl font-bold flex justify-center my-6"
+        className="title text-white text-5xl font-bold flex justify-center my-6"
         ref={titleRef}
       >
         Tic Tac Toe Game in <span className="text-cyan-400 ml-3">React</span>
@@ -112,7 +112,7 @@ const TicTacToe = () => {
       </div>
       <button
         className="reset rounded-full 
-      px-3 py-3 m-2 w-64 h-24 border-none outline-none 
+      px-1 py-1 w-64 h-20 border-none outline-none 
       cursor-pointer text-3xl  text-cyan-400 bg-gray-700"
         onClick={() => reset()}
       >
